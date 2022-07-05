@@ -1,0 +1,119 @@
+/* banner */
+*{margin: 0; padding: 0;}
+.slider{
+	width: 100%;
+	margin: 100px auto;
+}
+.slider .slick-slide> div{
+	margin: 20px;
+}
+.slider .slick-slide div img{
+	display: block;
+	width: 100%;
+}
+
+
+
+/*이동버튼 꾸미기*/
+.slider .slick-prev:before, 
+.slider .slick-next:before{
+	content:'';/*원래 버튼 없애기*/
+}
+.slider .slick-prev,
+.slider .slick-next{
+	width:35px;
+	height:67px;
+}
+.slider .slick-prev{
+	background:url(../images/prev1.png) no-repeat;
+	left:-50px; top: 350px;
+}
+.slider .slick-prev:hover{
+	background:url(../images/prev1_hover.png) no-repeat;
+}
+.slider .slick-next{
+	background:url(../images/next1.png) no-repeat;
+	right:-50px; top: 350px;
+}
+.slider .slick-next:hover{
+	background:url(../images/next1_hover.png) no-repeat;
+}
+
+/*블릿버튼 꾸미기*/
+.slider .slick-dots li button::before{
+	content: '';/*원래 버튼 없애기*/
+}
+
+.slider .slick-dots li button{
+	width:10px;
+	height:10px;
+	padding:0;
+	background:#c7c2b9;
+	border-radius:50%;
+}
+.slider .slick-dots li.slick-active button{
+	background:#864e49;
+}
+
+
+
+
+/* best item */
+.slider2{
+	width: 1110px;
+	margin: auto;
+}
+.slider2 .slick-slide> div{
+	margin: 20px;
+}
+.slider2 .slick-slide div img{
+	display: block;
+}
+
+/* 가운데 박스 꾸미기 */
+.slider2 .slick-current> div{
+	margin: 10px 10px 10px 20px;
+	transition: all 1s;
+}
+
+/*이동버튼 꾸미기*/
+.slider2 .slick-prev:before, 
+.slider2 .slick-next:before{
+	content:'';/*원래 버튼 없애기*/
+}
+.slider2 .slick-prev,
+.slider2 .slick-next{
+	width:40px;
+	height:40px;
+}
+.slider2 .slick-prev{
+	background:url(../images/prev2.png) no-repeat;
+	left:-50px;
+}
+.slider2 .slick-prev:hover{
+	background:url(../images/prev2_hover.png) no-repeat;
+}
+.slider2 .slick-next{
+	background:url(../images/next2.png) no-repeat;
+	right:-50px;
+}
+.slider2 .slick-next:hover{
+	background:url(../images/next2_hover.png) no-repeat;
+}
+
+/*블릿버튼 꾸미기*/
+.slider2 .slick-dots li button::before{
+	content: '';/*원래 버튼 없애기*/
+}
+
+.slider2 .slick-dots li button{
+	width:10px;
+	height:10px;
+	padding:0;
+	background:#c7c2b9;
+	border-radius:50%;
+}
+.slider2 .slick-dots li.slick-active button{
+	background:#864e49;
+}
+
